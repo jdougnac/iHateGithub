@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+<body>
+<h2>Talismanic Runes</h2>
+
+
+
+
+
+
+
+
+<table>
+
+<tr>
+    <th>Name:</th>
+    <td>Master Rune of Taunting</td>
+    <tr>
+        <th>Type:</th>
+        <td>Talismanic</td>
+    </tr>
+<tr>
+    <th>Inscription:</th>
+    <td>25</td>
+</tr>
+<tr>
+    <th>Empower:</th>
+    <td>6</td>
+</tr>
+<tr>
+    <tr>
+        <th>Ingredients:</th>
+        <td>A fistful of Fool’s Gold and the brains of four goblins.</td>
+    </tr>
+</tr>
+<th>Description(Permanent):</th>
+<td> As a full action, the wearer can taunt a single opponent, who must make a WP check. If they fail by less than 30, they must charge the wearer, attacking with a -10 to their WS for the remainder of the fight. If they fail by more, they flee as if subject to Fear.</td>
+<tr>
+<th>Description(Temporary):</th>
+<td>As permanent, only it works for a single battle.</td>
+</tr>
+</table>
+<br>
+
+
+<table>
+
+<tr>
+    <th>Name:</th>
+    <td>Master Rune of Valaya</td>
+    <tr>
+        <th>Type:</th>
+        <td>Talismanic</td>
+    </tr>
+<tr>
+    <th>Inscription:</th>
+    <td>30</td>
+</tr>
+<tr>
+    <th>Empower:</th>
+    <td>8</td>
+</tr>
+<tr>
+    <tr>
+        <th>Ingredients:</th>
+        <td>An ounce of gromril kept on an altar of Valaya for a year and a day, and sea water from the Black Gulf, collected at Barak Varr.</td>
+    </tr>
+</tr>
+<th>Description(Permanent):</th>
+<td> Any spell cast at a group of characters containing the bearer of this rune fail.</td>
+<tr>
+<th>Description(Temporary):</th>
+<td>This rune can only be inscribed as permanent.</td>
+</tr>
+</table>
+<br>
+
+    <table>
+
+    <tr>
+        <th>Name:</th>
+        <td>Master Rune of Vigour</td>
+        <tr>
+            <th>Type:</th>
+            <td>Talismanic/Standard</td>
+        </tr>
+    <tr>
+        <th>Inscription:</th>
+        <td>22</td>
+    </tr>
+    <tr>
+        <th>Empower:</th>
+        <td>4</td>
+    </tr>
+    <tr>
+        <tr>
+            <th>Ingredients:</th>
+            <td>The liver or a troll and powdered amethyst from Karak Azgal.</td>
+        </tr>
+    </tr>
+    <th>Description(Permanent):</th>
+    <td> This rune is usually inscribed on banners or sceptres for army commanders in the field. It can be activated thrice per day, and its effects last for 1D3 hours each time. Upon activation, the bearer can choose between three effects:
+    Increase the Movement score of the bearer and all allies within 10 yards by 1;
+    Increase the Strength score of the bearer and all allies within 10 yards by 10; or
+    Increase the Toughness score of the bearer and all allies within 10 yards by 10.
+    </td>
+    <tr>
+    <th>Description(Temporary):</th>
+    <td>As permanent, only it works for a single activation.</td>
+    </tr>
+    </table>
+    <br>
+<table>
+<tr>
+
+
+    <th>Name:</th>
+    <td>Master Rune of Vitality</td>
+    <tr>
+        <th>Type:</th>
+        <td>Talismanic</td>
+    </tr>
+<tr>
+    <th>Inscription:</th>
+    <td>25</td>
+</tr>
+<tr>
+    <th>Empower:</th>
+    <td>5</td>
+</tr>
+<tr>
+    <tr>
+        <th>Ingredients:</th>
+        <td>The heart of an ogre and a sprig of Valayawort, a herb that only grows in the alpine meadows near Karaz-a-Karak.</td>
+    </tr>
+</tr>
+<th>Description(Permanent):</th>
+<td> Each time the bearer receives a critical wound, re-roll it and keep the lower result.</td>
+<tr>
+<th>Description(Temporary):</th>
+<td>As permanent, only it works for a single activation.</td>
+</tr>
+</table>
+<br>
+
+<table>
+
+
+<tr>
+    <th>Name:</th>
+    <td>Rune of Battle</td>
+    <tr>
+        <th>Type:</th>
+        <td>Talismanic</td>
+    </tr>
+<tr>
+    <th>Inscription:</th>
+    <td>13</td>
+</tr>
+<tr>
+    <th>Empower:</th>
+    <td>3</td>
+</tr>
+<th>Description(Permanent):</th>
+<td>Upon activation, this rune reduces the effect of a critical wound by one. It can only be activated three times a day, and only once for each critical wound.</td>
+<tr>
+<th>Description(Temporary):</th>
+<td>As permanent, only it has a single use.</td>
+</tr>
+</table>
+<br>
+
+
+<table>
+
+
+<tr>
+    <th>Name:</th>
+    <td>Rune of Enemy Detection</td>
+    <tr>
+        <th>Type:</th>
+        <td>Talismanic</td>
+    </tr>
+<tr>
+    <th>Inscription:</th>
+    <td>13</td>
+</tr>
+<tr>
+    <th>Empower:</th>
+    <td>3</td>
+</tr>
+<th>Description(Permanent):</th>
+<td>This rune can be engraved on amulets, portals, gateways, etc. It must represent an enemy (elves, orcs, goblins, etc.). Should a creature fitting the description (for example, orcs, elves, ‘a man with red beard’, etc.) get within 30 feet of the rune, it starts glowing with a reddish hue.</td>
+<tr>
+<th>Description(Temporary):</th>
+<td>As permanent, only it lasts for eight hours after being activated.</td>
+</tr>
+</table>
+<br>
+
+<table>
+
+
+<tr>
+    <th>Name:</th>
+    <td>Rune of Healing</td>
+    <tr>
+        <th>Type:</th>
+        <td>Talismanic</td>
+    </tr>
+<tr>
+    <th>Inscription:</th>
+    <td>15</td>
+</tr>
+<tr>
+    <th>Empower:</th>
+    <td>4</td>
+</tr>
+<th>Description(Permanent):</th>
+<td>This rune can be inscribed in an amulet, item of clothing, or armour. Every time a blow deals wounds to the bearer, he recovers a single wound at the start of his next turn. So, if he’s struck and dealt damage three times (by a sword slash, an arrow and a fire ball), he’ll recover three wounds at the start of his next turn. A person can only benefit of a single Rune of Healing at the same time, and the rune has no effect on Critical Wounds.</td>
+<tr>
+<th>Description(Temporary):</th>
+<td>As permanent, only it works for 1 hour upon activation.</td>
+</tr>
+</table>
+<br>
+
+<table>
+
+
+<tr>
+    <th>Name:</th>
+    <td>Rune of Kadrin</td>
+    <tr>
+        <th>Type:</th>
+        <td>Talismanic/Standard</td>
+    </tr>
+<tr>
+    <th>Inscription:</th>
+    <td>12/15 (if in a banner)</td>
+</tr>
+<tr>
+    <th>Empower:</th>
+    <td>3/4 (if in a banner)</td>
+</tr>
+<th>Description(Permanent):</th>
+<td>Allows the bearer to re-roll a WS or BS test that failed by 20 or less. When inscribed on a banner, the effects of this rune spreads to all allies within 10 feet of the bearer.</td>
+<tr>
+<th>Description(Temporary):</th>
+<td>As permanent, only it lasts for 1 hour upon activation.</td>
+</tr>
+</table>
+<br>
+
+<table>
+
+<tr>
+    <th>Name:</th>
+    <td>Rune of Light</td>
+    <tr>
+        <th>Type:</th>
+        <td>Talismanic</td>
+    </tr>
+<tr>
+    <th>Inscription:</th>
+    <td>10</td>
+</tr>
+<tr>
+    <th>Empower:</th>
+    <td>2</td>
+</tr>
+<th>Description(Permanent):</th>
+<td>Upon tracing a finger through the rune, the object starts glowing like a torch or oil lamp. The effect lasts until it is deactivated.</td>
+<tr>
+<th>Description(Temporary):</th>
+<td>As permanent, only it lasts for 1 hour upon activation.</td>
+</tr>
+</table>
+<br>
+
+
+<table>
+
+<tr>
+    <th>Name:</th>
+    <td>Rune of Restoration</td>
+    <tr>
+        <th>Type:</th>
+        <td>Talismanic</td>
+    </tr>
+<tr>
+    <th>Inscription:</th>
+    <td>14</td>
+</tr>
+<tr>
+    <th>Empower:</th>
+    <td>3</td>
+</tr>
+<th>Description(Permanent):</th>
+<td> This rune can only be placed on amulets. Once per day, it will restore 1d6 wounds to a dwarf, or 1d3 wounds to a non-dwarf. It has no effect on Critical Wounds.</td>
+<tr>
+<th>Description(Temporary):</th>
+<td>As permanent, only it lasts for a single activation.</td>
+</tr>
+</table>
+<br>
+
+
+<table>
+
+<tr>
+    <th>Name:</th>
+    <td>Rune of Signal</td>
+    <tr>
+        <th>Type:</th>
+        <td>Talismanic</td>
+    </tr>
+<tr>
+    <th>Inscription:</th>
+    <td>13</td>
+</tr>
+<tr>
+    <th>Empower:</th>
+    <td>3</td>
+</tr>
+<th>Description(Permanent):</th>
+<td> Upon activation, this rune will send a pillar of light to the sky, visible for miles around, which stays there for a few seconds before disappearing. The bearer can decide its color upon activation, in order to give different pre-arranged signs.</td>
+<tr>
+<th>Description(Temporary):</th>
+<td>As permanent, only it lasts for a single activation.</td>
+</tr>
+</table>
+<br>
+
+
+<table>
+
+<tr>
+    <th>Name:</th>
+    <td>Rune of Silence</td>
+    <tr>
+        <th>Type:</th>
+        <td>Talismanic</td>
+    </tr>
+<tr>
+    <th>Inscription:</th>
+    <td>12</td>
+</tr>
+<tr>
+    <th>Empower:</th>
+    <td>3</td>
+</tr>
+<th>Description(Permanent):</th>
+<td> Upon activation, all sounds around the bearer and up to five other creatures are muffled, giving them a +10 in the Stealth rolls. Due to this distorting of sound, any individuals inside the affected group will have a -10 in all their spellcasting-related rolls while the rune is active.</td>
+<tr>
+<th>Description(Temporary):</th>
+<td>As permanent, only it lasts for an hour.</td>
+</tr>
+</table>
+<br>
+
+<table>
+
+
+<tr>
+    <th>Name:</th>
+    <td>Rune of Slowness</td>
+    <tr>
+        <th>Type:</th>
+        <td>Armour/ Talismanic</td>
+    </tr>
+<tr>
+    <th>Inscription:</th>
+    <td>17</td>
+</tr>
+<tr>
+    <th>Empower:</th>
+    <td>3</td>
+</tr>
+<th>Description(Permanent):</th>
+<td>Can be inscribed on amulets or armour. Halves the Initiative of all enemies attacking the bearer in melee. This can interrupt their turn, forcing them to act in their new place in the initiative order. If they change objective, their initiative goes back to normal.</td>
+<tr>
+<th>Description(Temporary):</th>
+<td>As permanent, only it works for an hour upon activation.</td>
+</tr>
+
+</table>
+<br>
+
+
+
+
+
+
+
+
+<h2>Weapon Runes</h2>
+<table>
+
+<tr>
+    <th>Name:</th>
+    <td>Master Rune of Slaying</td>
+    <tr>
+        <th>Type:</th>
+        <td>Weapon</td>
+    </tr>
+<tr>
+    <th>Inscription:</th>
+    <td>25</td>
+</tr>
+<tr>
+    <th>Empower:</th>
+    <td>5</td>
+</tr>
+<tr>
+    <tr>
+        <th>Ingredients:</th>
+        <td>Against Chaos: 3 drops of Daemon blood and 7 hairs from the head of a high elf, willingly given;
+         Against dragons: Iron ore from the lost hold of Karak Azgal, and the blood of a dragon;
+        Against undead: A flagon of water from Black Water, gathered at noon on Sonnstill.</td>
+    </tr>
+</tr>
+<th>Description(Permanent):</th>
+<td>Upon inscription, choose a type of creature: Chaotic, Undead, or Draconic. When facing a foe of the chosen type, the bearer’s S, T and WS are increased by +20 each, and the rune glows when members of the assigned type get closer than 20 feet.</td>
+<tr>
+<th>Description(Temporary):</th>
+<td>As permanent, only it works for a minute.</td>
+</tr>
+</table>
+<br>
+
+<table>
+
+<tr>
+    <th>Name:</th>
+    <td>Master Rune of Smiting</td>
+    <tr>
+        <th>Type:</th>
+        <td>Weapon</td>
+    </tr>
+<tr>
+    <th>Inscription:</th>
+    <td>35</td>
+</tr>
+<tr>
+    <th>Empower:</th>
+    <td>6</td>
+</tr>
+<tr>
+    <tr>
+        <th>Ingredients:</th>
+        <td></td>
+    </tr>
+</tr>
+<th>Description(Permanent):</th>
+<td>A weapon inscribed with this rune deals an extra die of damage.</td>
+<tr>
+<th>Description(Temporary):</th>
+<td>As permanent, only it works for a minute.</td>
+</tr>
+</table>
+<br>
+
+<table>
+
+<tr>
+    <th>Name:</th>
+    <td>Rune of Cutting</td>
+    <tr>
+        <th>Type:</th>
+        <td>Weapon</td>
+    </tr>
+<tr>
+    <th>Inscription:</th>
+    <td>11</td>
+</tr>
+<tr>
+    <th>Empower:</th>
+    <td>2</td>
+</tr>
+<th>Description(Permanent):</th>
+<td> Ignores 1 AP from the opponent.</td>
+<tr>
+<th>Description(Temporary):</th>
+<td>As permanent, only it works for a minute.</td>
+</tr>
+</table>
+<br>
+
+<table>
+
+<tr>
+    <th>Name:</th>
+    <td>Rune of Frenzy</td>
+    <tr>
+        <th>Type:</th>
+        <td>Weapon</td>
+    </tr>
+<tr>
+    <th>Inscription:</th>
+    <td>15</td>
+</tr>
+<tr>
+    <th>Empower:</th>
+    <td>3</td>
+</tr>
+<th>Description(Permanent):</th>
+<td> It gives +20 BS to attacks, but -10 BS when defending against melee attacks.</td>
+<tr>
+<th>Description(Temporary):</th>
+<td>As permanent, only it works for a minute.</td>
+</tr>
+</table>
+<br>
+<table>
+
+<tr>
+    <th>Name:</th>
+    <td>Rune of Illusion</td>
+    <tr>
+        <th>Type:</th>
+        <td>Weapon</td>
+    </tr>
+<tr>
+    <th>Inscription:</th>
+    <td>18</td>
+</tr>
+<tr>
+    <th>Empower:</th>
+    <td>3</td>
+</tr>
+<th>Description(Permanent):</th>
+<td>Upon activation, makes the user appear incredibly ferocious, causing Fear in all enemies who are less than 10 feet tall.</td>
+<tr>
+<th>Description(Temporary):</th>
+<td>As permanent, only it works for a minute.</td>
+</tr>
+</table>
+<br>
+
+<table>
+
+<tr>
+    <th>Name:</th>
+    <td>Rune of Parrying</td>
+    <tr>
+        <th>Type:</th>
+        <td>Weapon</td>
+    </tr>
+<tr>
+    <th>Inscription:</th>
+    <td>13</td>
+</tr>
+<tr>
+    <th>Empower:</th>
+    <td>3</td>
+</tr>
+<th>Description(Permanent):</th>
+<td> It can only be inscribed on a melee weapon. The bearer gets +10 WS when making parrying checks.</td>
+<tr>
+<th>Description(Temporary):</th>
+<td>As permanent, only it works for a minute.</td>
+</tr>
+</table>
+<br>
+
+
+
+<table>
+
+<tr>
+    <th>Name:</th>
+    <td>Rune of Transformation</td>
+    <tr>
+        <th>Type:</th>
+        <td>Weapon</td>
+    </tr>
+<tr>
+    <th>Inscription:</th>
+    <td>15</td>
+</tr>
+<tr>
+    <th>Empower:</th>
+    <td>3</td>
+</tr>
+<th>Description(Permanent):</th>
+<td>Upon inscription, choose one hand weapon that is smaller and deals less than the original. By spending an action, you can transform the weapon into the one assigned upon inscription. Upon being activated again, the weapon reverts to its first form. Other inscribed runes remain unaffected.</td>
+<tr>
+<th>Description(Temporary):</th>
+<td>Only permanent runes of transformation may be inscribed.</td>
+</tr>
+</table>
+<br>
+
+
+</body>
+</html>

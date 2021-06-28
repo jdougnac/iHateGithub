@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+
+
+</style>
+<title>NPC Generator</title>
+<body>
+
+<h1>NPC Generator</h1>
+
+<form action="/NPCGenerator/NPCGenerator" method="post">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit" name="save">Create</button>
+</form>
+
+<table>
+<tr>
+    <th>Name:</th>
+    <td>{{npc.npc.1}}</td>
+    <th>Race:</th>
+    <td>{{npc.npc.2}}</td>
+    <th>Current Career:</th>
+    <td>{{npc.npc.3}}</td>
+
+</tr>
+<tr>
+    <th>Old Careers:</th>
+    {% for x in npc.npc.4 %}
+    <td>{{x}}</td>
+    {% endfor %}
+</tr>
+
+</table>
+
+<table>
+    <tr>
+    <th>Gender:</th>
+    <td>{{npc.npc.5}}</td>
+    <th>Nation:</th>
+    <td>{{npc.npc.6}}</td>
+    <th>Faith:</th>
+    <td>{{npc.npc.7}}</td>
+
+    </tr>
+    <tr>
+        <th>Height:</th>
+        <td>{{npc.npc.8}}</td>
+    <th>Weight:</th>
+    <td>{{npc.npc.9}}</td>
+    <th>Eye Color:</th>
+    <td>{{npc.npc.10}}</td>
+    </tr>
+
+<tr>
+    <th>Hair Color:</th>
+    <td>{{npc.npc.11}}</td>
+    <th>Age:</th>
+    <td>{{npc.npc.12}}</td>
+    <th>Distinguishing Mark:</th>
+    <td>{{npc.npc.13}}</td>
+    <th>Siblings:</th>
+    <td>{{npc.npc.14}}</td>
+</tr>
+
+</table>
+
+<table>
+    <tr>
+      <th>WS</th>
+      <th>BS</th>
+      <th>S</th>
+      <th>T</th>
+      <th>Ag</th>
+      <th>Int</th>
+      <th>WP</th>
+      <th>Fel</th>
+    </tr>
+    <tr>
+        <td>{{ npc.npc.0.0 }}</td>
+        <td>{{ npc.npc.0.1 }}</td>
+        <td>{{ npc.npc.0.2 }}</td>
+        <td>{{ npc.npc.0.3 }}</td>
+        <td>{{ npc.npc.0.4 }}</td>
+        <td>{{ npc.npc.0.5 }}</td>
+        <td>{{ npc.npc.0.6 }}</td>
+        <td>{{ npc.npc.0.7 }}</td>
+    </tr>
+
+
+        <tr>
+          <th>A</th>
+          <th>W</th>
+          <th>SB</th>
+          <th>TB</th>
+          <th>M</th>
+          <th>Mag</th>
+          <th>IP</th>
+          <th>FP</th>
+        </tr>
+        <tr>
+            <td>{{ npc.npc.0.8 }}</td>
+            <td>{{ npc.npc.0.9 }}</td>
+            <td>{{ npc.npc.0.13 }}</td>
+            <td>{{ npc.npc.0.14 }}</td>
+            <td>{{ npc.npc.0.10 }}</td>
+            <td>{{ npc.npc.0.11 }}</td>
+            <td>{{ 0 }}</td>
+            <td>{{ npc.npc.0.12 }}</td>
+        </tr>
+
+
+</table>
+
+<table>
+
+        <th>Skills:</th>
+
+        {% for x in npc.npc.15 %}
+        <tr>
+        <td>{{x}}</td>
+        </tr>
+        {% endfor %}
+
+
+        <th>Talents:</th>
+        {% for x in npc.npc.16 %}
+        <tr>
+        <td>{{x}}</td>
+        </tr>
+        {% endfor %}
+
+</table>
+
+
+<h2>Note: the generator prevents non-valid combinations (suck as dwarf wizards) from happening.</h2>
+<h2>Thus, it's possible you might get an unexpected result every once in a while.</h2>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+<title>Mutation Generator</title>
+<body>
+
+<h1>Mutation Generator</h1>
+
+<form action="/hammer/createMutation" method="post">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit" name="save">Create</button>
+</form>
+
+<table>
+{% if item.item_list|length <= 20 %}
+{% for x in item.item_list %}
+<tr>
+
+</tr>
+
+{% for z in x %}
+    <th>
+        <p>{{ z }} </p>
+    </th>
+{% endfor %}
+{% endfor %}
+{% endif %}
+
+</table>
+<h2>Note: all mutations are in the Tome of Chaos for 2nd edition.</h2>
+<h2>Note 2: there's a very small chance an extra mutation will be created, as well
+     as for a mutation for a specific Chaos god to be rolled in the general table.</h2>
+
+</body>
+</html>

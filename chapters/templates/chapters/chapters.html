@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+    <body>
+
+        <form action="/chapters/chapters/" method="post">
+            {% csrf_token %}
+            {{form.as_p}}
+            <button type="submit" name="save">Create</button>
+        </form>
+
+
+
+<h1>Chapter generator based on the FFG game Deathwatch supplement Rites of Battle</h1>
+        <div class="row">
+
+
+            <div class="column">
+                <p><b>Name:</b></p>
+                <p>{{name}}</p>
+
+
+                <p><b>Origin:</b></p>
+                <p>{{origin}}</p>
+
+                <p><b>Date of Origin:</b></p>
+                <p>{{date_of_origin}}</p>
+
+                <p><b>Progenitor:</b></p>
+                <p>{{progenitor}}</p>
+
+                <p><b>Purity:</b></p>
+                <p>{{purity_shown}}</p>
+
+                <p><b>Demeanour:</b></p>
+                <p>{{demeanour}}</p>
+
+                <p><b>Deficiency:</b></p>
+                <p>{{deficiency}}</p>
+
+                <p><b>Flaw:</b></p>
+                <p>{{flaw}}</p>
+
+            </div>
+
+            <div class="column">
+
+                <p><b>Characteristic Modifier:</b></p>
+                <p>{{characteristic_modifier}}</p>
+
+                <p><b>Figure of Legend:</b></p>
+                <p>{{figure_of_legend}}</p>
+
+                <p><b>Deed of Legend:</b></p>
+                <p>{{deed_of_legend}}</p>
+
+                <p><b>Homeworld:</b></p>
+                <p>{{home_world}}</p>
+
+                <p><b>Chapter Organisation:</b></p>
+                <p>{{chapter_organisation}}</p>
+
+                <p><b>Combat Doctrine:</b></p>
+                <p>{{combat_doctrine}}</p>
+
+                <p><b>Solo Abilities:</b></p>
+                <p>{{solo_abilities}}</p>
+
+            </div>
+
+            <div class="column">
+
+                <p><b>Squad Mode Abilities:</b></p>
+                <p>{{squad_mode_abilities}}</p>
+
+                <p><b>Speciality Restrictions:</b></p>
+                <p>{{speciality_restrictions}}</p>
+
+                <p><b>Special Equipment:</b></p>
+                <p>{{special_equipment}}</p>
+
+                <p><b>Chapter Beliefs:</b></p>
+                <p>{{chapter_beliefs}}</p>
+
+                <p><b>Current Status:</b></p>
+                <p>{{current_status}}</p>
+
+                <p><b>Chapter Friends:</b></p>
+                <p>{{chapter_friends}}</p>
+
+                <p><b>Chapter Enemies:</b></p>
+                <p>{{chapter_enemies}}</p>
+
+                <p><b>Chapter Advance:</b></p>
+                <p>{{chapter_advance}}</p>
+
+            </div>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+<title>Item Creator</title>
+<body>
+
+<h1>Item Creator</h1>
+
+<form action="/hammer/createItem" method="post">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit" name="save">Create</button>
+</form>
+
+<table>
+{% if item.item_list|length <= 20 %}
+{% for x in item.item_list %}
+<tr>
+
+</tr>
+
+{% for z in x %}
+    <th>
+        <p>{{ z }} </p>
+    </th>
+{% endfor %}
+{% endfor %}
+{% endif %}
+
+</table>
+
+<table>
+
+    <tr>
+      <th>Acronym</th>
+      <th>Book</th>
+    </tr>
+    <tr>
+      <td>AN</td>
+      <td>Apocrypha Now</td>
+    </tr>
+    <tr>
+      <td>Apo2</td>
+      <td>Apocrypha 2: Chart of Darkness</td>
+    </tr>
+    <tr>
+      <td>BOTD</td>
+      <td>Barony of the Damned</td>
+    </tr>
+    <tr>
+      <td>COHR</td>
+      <td>Children of the Horned Rat</td>
+    </tr>
+    <tr>
+      <td>CORE1</td>
+      <td>Core Rulebook, 1st Edition</td>
+    </tr>
+    <tr>
+      <td>CORE2</td>
+      <td>Core Rulebook, 2nd Edition</td>
+    </tr>
+    <tr>
+      <td>FON</td>
+      <td>Forges of Nuln</td>
+    </tr>
+    <tr>
+      <td>NDM</td>
+      <td>Night's Dark Masters</td>
+    </tr>
+    <tr>
+      <td>ROS1</td>
+      <td>Realms of Sorcery, 1st Edition</td>
+    </tr>
+    <tr>
+      <td>ROS2</td>
+      <td>Realms of Sorcery, 2nd Edition</td>
+    </tr>
+    <tr>
+      <td>SOA</td>
+      <td>Spires of Altdorf</td>
+    </tr>
+    <tr>
+      <td>TOC</td>
+      <td>Tome of Corruption</td>
+    </tr>
+    <tr>
+      <td>TOS</td>
+      <td>Tome of Salvation</td>
+    </tr>
+    <tr>
+      <td>TT</td>
+      <td>The Thousand Thrones</td>
+    </tr>
+
+</table>
+</body>
+</html>
