@@ -1,0 +1,4 @@
+011Apprentice Wizard            
+092Hedge Wizard                 
+093Hedgecraft Apprentice        
+106Initiate                     

@@ -1,0 +1,34 @@
+007Animal Trainer               
+013Artisan                      
+023Black Guard                  
+037Cat Burglar                  
+042Charlatan                    
+053Demagogue                    
+059Enforcer                     
+067Explorer                     
+070Fence                        
+074Flagellant                   
+075Foreman                      
+076Forger                       
+098Highwayman                   
+107Innkeeper                    
+108Interrogator                 
+116Knight                       
+132Mate                         
+135Merchant                     
+139Minstrel                     
+142Mystic  
+143Navigator                     
+153Physician                    
+162Racketeer                    
+164Rapscallion                  
+173Scout                        
+177Sergeant                     
+182Slaver                       
+187Spy                          
+191Steward                      
+197Targeteer                    
+208Vampire Hunter               
+209Verenean Investigator        
+210Veteran
+233Warleader

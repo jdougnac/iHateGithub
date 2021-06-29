@@ -1,0 +1,6 @@
+228Apprentice Witch             
+011Apprentice Wizard            
+092Hedge Wizard                 
+093Hedgecraft Apprentice        
+220Wise Woman                   
+106Initiate                     

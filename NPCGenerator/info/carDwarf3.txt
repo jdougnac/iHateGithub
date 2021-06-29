@@ -1,0 +1,20 @@
+051Daemon Slayer                
+012Artillerist                  
+014Assassin                     
+018Badlands Ranger              
+034Captain                      
+040Champion                     
+045Cloaked Brother              
+048Crime Lord                   
+049Crusader                     
+087Guild Master                 
+112Judicial Champion            
+113Killer of the Dead           
+119Knight of the Inner Circle   
+130Master Thief                 
+146Noble Lord                   
+148Outlaw Chief                 
+158Prelate                      
+172Scourge of God               
+175Sea Captain                  
+222Witch Hunter                 

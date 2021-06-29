@@ -1,0 +1,62 @@
+017Badlander                    
+020Barber-Surgeon               
+025Boatman                      
+026Bodyguard                    
+027Bone Picker                  
+029Bounty Hunter                
+032Camp Follower                
+041Charcoal-Burner              
+044Chimneysweep                 
+052Deepwatcher                  
+057Dung Collector               
+058Embalmer                     
+061Entertainer                  
+064Ex-Convict                   
+065Exciseman                    
+069Farmer                       
+071Ferryman                     
+073Fisherman                    
+085Grave Robber                 
+086Grave Warden                 
+103Hunter                       
+106Initiate                     
+109Jailer                       
+128Marine                       
+134Mercenary                    
+136Messenger                    
+137Militiaman                   
+138Miner                        
+147Outlaw                       
+149Outrider                     
+151Peasant                      
+152Penitent                     
+156Pit Fighter                  
+160Protagonist                  
+163Raconteur                    
+165Rat Catcher                  
+166River Warden                 
+167Road Warden                  
+168Rogue                        
+181Slave                        
+183Smuggler                     
+184Soldier                      
+188Squire                       
+195Swamp Skimmer                
+198Temple Guardian              
+199Thief                        
+200Thug                         
+202Tomb Robber                  
+203Tradesman                    
+206Vagabond                     
+217Watchman                     
+224Woodsman                     
+225Wrecker                      
+227Zealot                       
+230Bondsman                     
+231Freeholder                   
+232Reaver                       
+234Marauder                     
+235Norse Berserker              
+236Seer                         
+237Skald                        
+239Whaler                       

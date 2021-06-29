@@ -1,0 +1,51 @@
+081Giant Slayer                 
+001Abbot                       
+003Agent of the Shroud          
+007Animal Trainer               
+013Artisan                      
+015Astrologer                   
+023Black Guard                  
+028Border Courtier              
+033Cantor                       
+037Cat Burglar                  
+038Catechist                    
+042Charlatan                    
+047Courtier                     
+050Cult Attendant               
+053Demagogue                    
+056Duellist                     
+059Enforcer                     
+060Engineer                     
+067Explorer                     
+070Fence                        
+074Flagellant                   
+075Foreman                      
+076Forger                       
+077Friar                        
+095Herald                       
+098Highwayman                   
+107Innkeeper                    
+108Interrogator                 
+116Knight                       
+125Lay Priest                   
+132Mate                         
+135Merchant                     
+139Minstrel                     
+142Mystic                       
+143Navigator                    
+150Pamphleteer                  
+153Physician                    
+155Pistolier                    
+157Politician                   
+162Racketeer                    
+164Rapscallion                  
+171Scholar                      
+173Scout                        
+177Sergeant                     
+182Slaver                       
+187Spy                          
+191Steward                      
+197Targeteer                    
+208Vampire Hunter               
+209Verenean Investigator        
+210Veteran                      

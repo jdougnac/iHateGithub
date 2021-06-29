@@ -1,0 +1,1 @@
+Added extra entries for the Chaos Warrior and Doomweaver classes: since they're both 2nd career, entering from Magus didn't make much sense, and having a single point of entry didn't make much sense either.

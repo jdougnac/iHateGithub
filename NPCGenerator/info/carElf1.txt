@@ -1,0 +1,81 @@
+062Envoy                        
+115Kithband Warrior             
+004Agitator                     
+006Anchorite                    
+009Apothecary                   
+017Badlander                    
+019Bailiff                      
+020Barber-Surgeon               
+025Boatman                      
+026Bodyguard                    
+027Bone Picker                  
+029Bounty Hunter                
+030Burgher                      
+031Cadet                        
+032Camp Follower                
+036Cartographer                 
+039Cenobite                     
+041Charcoal-Burner              
+044Chimneysweep                 
+046Coachman                     
+052Deepwatcher                  
+054Dilettante                   
+057Dung Collector               
+058Embalmer                     
+061Entertainer                  
+064Ex-Convict                   
+065Exciseman                    
+069Farmer                       
+071Ferryman                     
+073Fisherman                    
+079Gambler                      
+085Grave Robber                 
+086Grave Warden                 
+099Horned Hunter                
+103Hunter                       
+106Initiate                     
+109Jailer                       
+124Lamplighter                  
+126Litigant                     
+128Marine                       
+134Mercenary                    
+136Messenger                    
+137Militiaman                   
+138Miner                        
+140Monk                         
+141Muleskinner                  
+145Noble                        
+147Outlaw                       
+149Outrider                     
+151Peasant                      
+152Penitent                     
+154Pilgrim                      
+156Pit Fighter                  
+160Protagonist                  
+163Raconteur                    
+165Rat Catcher                  
+166River Warden                 
+167Road Warden                  
+168Rogue                        
+174Scribe                       
+176Seaman                       
+178Servant                      
+181Slave                        
+183Smuggler                     
+184Soldier                      
+188Squire                       
+190Stevedore                    
+194Student                      
+195Swamp Skimmer                
+198Temple Guardian              
+199Thief                        
+200Thug                         
+201Toll Keeper                  
+202Tomb Robber                  
+203Tradesman                    
+206Vagabond                     
+207Valet                        
+217Watchman                     
+224Woodsman                     
+225Wrecker                      
+227Zealot                       
